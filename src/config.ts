@@ -14,7 +14,7 @@ export const eventConfig = {
 
   venueName: 'Blk Lot Street',
   venueAddress: 'Avida Village Cerise Nuvali, Calamba City',
-  mapUrl: 'https://maps.google.com/?q=123+Blossom+Lane+Quezon+City',
+  mapUrl: 'https://maps.app.goo.gl/MjTRaVAFzF6QMN897',
 
   welcomeMessage:
     "We can't wait to celebrate the newest addition to our family with the people we love most. Join us for an afternoon of joy, laughter, and lots of little kicks!",
