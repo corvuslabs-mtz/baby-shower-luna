@@ -55,7 +55,7 @@ export function RSVP() {
             value={guestName}
             onChange={(e) => setGuestName(e.target.value)}
             className="rounded-xl border border-blush-200 px-4 py-2 font-body focus:outline-none focus:ring-2 focus:ring-blush-300"
-            placeholder="Jane Dela Cruz"
+            placeholder="Luna Celest Dizon"
           />
         </label>
 
@@ -77,7 +77,7 @@ export function RSVP() {
             value={contact}
             onChange={(e) => setContact(e.target.value)}
             className="rounded-xl border border-blush-200 px-4 py-2 font-body focus:outline-none focus:ring-2 focus:ring-blush-300"
-            placeholder="jane@example.com"
+            placeholder="email@example.com"
           />
         </label>
 
