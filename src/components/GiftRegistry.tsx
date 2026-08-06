@@ -49,12 +49,14 @@ export function GiftRegistry() {
           If you'd like to bless us with something, here's what would mean the world right now. No pressure at
           all — your presence is the real gift.
         </p>
+
         {!isLiveShared && (
           <p className="font-body text-xs text-amber-600 bg-amber-50 inline-block rounded-full px-4 py-1.5 mt-4">
             Running in local demo mode — connect Supabase (see README) so pledges sync across every guest's
             device.
           </p>
         )}
+        
       </div>
 
       <div className="flex justify-center gap-2 mb-8 flex-wrap">

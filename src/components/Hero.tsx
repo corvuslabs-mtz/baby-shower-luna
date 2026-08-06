@@ -39,10 +39,6 @@ export function Hero() {
           {eventConfig.venueName} — {eventConfig.venueAddress}
         </a>
 
-        {eventConfig.theme && (
-          <p className="font-body text-sm text-ink/60 italic">{eventConfig.theme}</p>
-        )}
-
         <div className="mt-4">
           <Countdown targetDate={eventConfig.dateTimeISO} />
         </div>
